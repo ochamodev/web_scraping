@@ -1,12 +1,7 @@
 
-export class SimanProduct {
-    name: String;
-    detailLink: String;
-    constructor(
-        name: string,
-        detailLink: string,
-    ) {
-        this.name = name;
-        this.detailLink = detailLink;
-    }
+export interface SimanProduct {
+    name: String | null;
+    brandName: String | null;
+    detailLink: String | null;
+    sku: String | null;
 }
